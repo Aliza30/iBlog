@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Lato:wght@100;400;700&family=Patrick+Hand+SC&family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Lato&family=Patrick+Hand+SC&family=Ubuntu:wght@300;500;700&display=swap');
+
+:root {
+    --dark-color: #5f5757;
+    --light-color: #f3eee6;
+    --red-high: #ba6767;
+    --font1: 'Ubuntu',
+        sans-serif;
+    --font2: 'Lato',
+        sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+.m-auto {
+    margin: auto;
+}
+.center{
+    text-align: center;
+}
+.form-input {
+    /* padding: 5px 5px; */
+    font-size: 15px;
+    border: 2px solid var(--dark-color);
+    border-radius: 13px;
+    font-family: var(--font2);
+
+}
+
+.form-box input,
+textarea {
+    width: 70vw;
+    padding: 3px 3px;
+    margin: 7px 0px;
+    display: flex;
+    flex-direction: column;
+    color: var(--dark-color);
+    font-family: var(--font2);
+    border: 2px solid var(--dark-color);
+    border-radius: 9px;
+    font-size: 18px;
+}

@@ -1,0 +1,11 @@
+.contact-content {
+    height: 80vw;
+    border: 1cm;
+    border-radius: 12px;
+    padding: 40px 10px;
+    margin: 10px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    margin: 12px;
+    overflow: hidden;
+}
